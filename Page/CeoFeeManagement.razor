@@ -77,9 +77,10 @@
                 <td>@fee.ClassSection</td>
                 <td>@fee.AdmissionFee</td>
                 <td class="@(fee.AdmissionAmountPaid == 0 ? "table-danger" :
-             (fee.AdmissionFee != fee.AdmissionAmountPaid ? "table-warning" : ""))">
-                    @fee.AdmissionFee
+    (fee.AdmissionFee != fee.AdmissionAmountPaid ? "table-warning" : ""))">
+                    @(fee.AdmissionAmountPaid == 0 ? "0" : fee.AdmissionAmountPaid)
                 </td>
+
 
 
 
@@ -91,9 +92,10 @@
 
 
                 <td class="@(fee.FirstTermAmountPaid == 0 ? "table-danger" :
-             (fee.FirstTermFee != fee.FirstTermAmountPaid ? "table-warning" : ""))">
-                    @fee.FirstTermFee
+    (fee.FirstTermFee != fee.FirstTermAmountPaid ? "table-warning" : ""))">
+                    @(fee.FirstTermAmountPaid == 0 ? "0" : fee.FirstTermAmountPaid)
                 </td>
+
 
                 <td>@fee.FirstTermDue</td>
                 <td>@fee.FirstTermBillNo</td>
@@ -101,9 +103,10 @@
                 <td>@fee.SecondTermFee</td>
 
                 <td class="@(fee.SecondTermAmountPaid == 0 ? "table-danger" :
-             (fee.SecondTermFee != fee.SecondTermAmountPaid ? "table-warning" : ""))">
-                    @fee.SecondTermFee
+    (fee.SecondTermFee != fee.SecondTermAmountPaid ? "table-warning" : ""))">
+                    @(fee.SecondTermAmountPaid == 0 ? "0" : fee.SecondTermAmountPaid)
                 </td>
+
 
 
                 <td>@fee.SecondTermDue</td>

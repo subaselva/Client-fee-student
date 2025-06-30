@@ -28,7 +28,7 @@ namespace BlazorApp1.Services
 
         public async Task<HttpResponseMessage> CreateStudentFeeAsync(StudentFee studentFee)
         {
-            return await _httpClient.PostAsJsonAsync("api/StudentFees", studentFee);
+            return await _httpClient.PostAsJsonAsync($"api/StudentFees", studentFee);
         }
 
         public async Task<HttpResponseMessage> UpdateStudentFeeAsync(int id, StudentFee studentFee)

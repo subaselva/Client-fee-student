@@ -1,9 +1,9 @@
 {
   "mainAssemblyName": "BlazorApp1",
   "resources": {
-    "hash": "sha256-/P+dMltrS2AGVx0rxrrNpiMLCatzKjblcjJOrVOcXhc=",
+    "hash": "sha256-PVDJ1zCyNN3Kafu8eu3EzI8JQsAxkiezIHYA4UhEsCw=",
     "fingerprinting": {
-      "BlazorApp1.amldh8r7b6.wasm": "BlazorApp1.wasm",
+      "BlazorApp1.mq2vf3enoy.wasm": "BlazorApp1.wasm",
       "Blazored.LocalStorage.12n6dz54qr.wasm": "Blazored.LocalStorage.wasm",
       "Microsoft.AspNetCore.Authorization.38ov613by3.wasm": "Microsoft.AspNetCore.Authorization.wasm",
       "Microsoft.AspNetCore.Components.Authorization.wq5d3hzdix.wasm": "Microsoft.AspNetCore.Components.Authorization.wasm",
@@ -100,7 +100,7 @@
       "System.Runtime.InteropServices.JavaScript.wsfdryscvq.wasm": "sha256-wOuAHnVUrnmpDMt664AOi8jmxK7V6tfaHQAGoNlLHCU="
     },
     "assembly": {
-      "BlazorApp1.amldh8r7b6.wasm": "sha256-ThBwXm02X+3JXwxK8/70QbJL585A1qK9/VxUCCYLhFs=",
+      "BlazorApp1.mq2vf3enoy.wasm": "sha256-nhqhLr8cLoN19p61vJoJ+DdLtQw/LMsDKSDA0DzbMTk=",
       "Blazored.LocalStorage.12n6dz54qr.wasm": "sha256-OaMAAd5n7ORfyur5e3QIyEVKJ76MKIvwbg7/icnnYcU=",
       "Microsoft.AspNetCore.Authorization.38ov613by3.wasm": "sha256-Y+aCkuUth61V5aCN6GdhFE2Bg5d4xBO8VGCLC9GTS+c=",
       "Microsoft.AspNetCore.Components.Authorization.wq5d3hzdix.wasm": "sha256-WJX5VwbSwiE/ozY5MUNtWwK6V1mpQTqXiqmkwaDLjoo=",

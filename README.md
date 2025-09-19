@@ -9,7 +9,7 @@ Manages student details and student fee records, with different workflows for CE
 START
   │
   ▼
-[CEO Logs In] (Predefined Email)
+[CEO Logs In] → (Predefined Email)
   │
   ▼
 [CEO Registers Accountant(s)]

@@ -6,54 +6,54 @@ Manages student details and student fee records, with different workflows for CE
 **🚀 Step-by-Step System Workflow**
 **🏗️ Raw System Design (Step-by-Step Workflow)**
 
-START
-  │
-  ▼
-[CEO Logs In] → (Predefined Email)
-  │
-  ▼
-[CEO Registers Accountant(s)]
-  │
-  ▼
-[Accountant Logs In]
-  │
-  ▼
-[Accountant Enters Student & Fee Details]
-  │
-  ▼
-[Accountant Edits Student/Fee Records]
-  │
-  ▼
-[CEO Approves Edits]
-  │
-  ├──> Changes Saved to Database
-  │
-  ▼
-[CEO Directly Add/Update/Delete Student & Fee Records]
-  │
-  ▼
-[Deleted Items?] ──> [Recovery System (Hangfire)] ──> Recovered Items
-  │
-  ▼
-[CEO Defines Term Fee Dates]
-  │
-  ▼
-[Students’ Term Fee Details Displayed]
-  │
-  ▼
-[Dashboard Display]
-  │
-  ├──> Total Students
-  ├──> Pending Fees
-  └──> Pending Approvals
-  │
-  ▼
-[Export Feature]
-  ├──> Accountants Export Excel
-  └──> CEO Export Excel
-  │
-  ▼
-END
+echo "START"
+echo "  │"
+echo "  ▼"
+echo "[CEO Logs In] → (Predefined Email)"
+echo "  │"
+echo "  ▼"
+echo "[CEO Registers Accountant(s)]"
+echo "  │"
+echo "  ▼"
+echo "[Accountant Logs In]"
+echo "  │"
+echo "  ▼"
+echo "[Accountant Enters Student & Fee Details]"
+echo "  │"
+echo "  ▼"
+echo "[Accountant Edits Student/Fee Records]"
+echo "  │"
+echo "  ▼"
+echo "[CEO Approves Edits]"
+echo "  │"
+echo "  ├──> Changes Saved to Database"
+echo "  │"
+echo "  ▼"
+echo "[CEO Directly Add/Update/Delete Student & Fee Records]"
+echo "  │"
+echo "  ▼"
+echo "[Deleted Items?] ──> [Recovery System (Hangfire)] ──> Recovered Items"
+echo "  │"
+echo "  ▼"
+echo "[CEO Defines Term Fee Dates]"
+echo "  │"
+echo "  ▼"
+echo "[Students’ Term Fee Details Displayed]"
+echo "  │"
+echo "  ▼"
+echo "[Dashboard Display]"
+echo "  │"
+echo "  ├──> Total Students"
+echo "  ├──> Pending Fees"
+echo "  └──> Pending Approvals"
+echo "  │"
+echo "  ▼"
+echo "[Export Feature]"
+echo "  ├──> Accountants Export Excel"
+echo "  └──> CEO Export Excel"
+echo "  │"
+echo "  ▼"
+echo "END"
 
 **✅ This raw design shows all main flows:**
 
